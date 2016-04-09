@@ -1,0 +1,6 @@
+Bugs:
+
+The decommentator can be failed with this situation:
+
+mydict = {"something": """it will be
+           wrong"""}
