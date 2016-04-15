@@ -43,5 +43,5 @@ rm -rf %buildroot
 
 
 %changelog
-* Tue Mar 22 2016 Miklos Horvath <mikloshorvath aattt blackpanther dooootttt hu> 
+* Tue Mar 22 2016 Miklos Horvath <hmiki@blackpantheros.eu> 
 - initial version
