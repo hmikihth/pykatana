@@ -4,6 +4,7 @@
 class Builder():
     def __init__(self):
         self.blocks = []
+        self.modules = []
   
   
     def set_blocks(self, blocks):
@@ -15,6 +16,7 @@ class Builder():
   
   
     def mapping(self):
+
         for block in self.blocks:
             for obj in self.imported_objects:
                 block.check_an_imported_object(obj)
@@ -24,4 +26,12 @@ class Builder():
                 for obj2 in self.imported_objects:
                     if obj.parentname == obj2.name:
                         obj.add_related_object(obj2)
+
+
+    def create_modules(self):
+        pass
+
+
+    def get_modules(self):
+        return self.modules
     
